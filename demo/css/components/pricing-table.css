@@ -20,8 +20,8 @@
 	-webkit-align-items: stretch;
 	align-items: stretch;
 	text-align: center;
-	-webkit-flex: 0 1 330px;
-	flex: 0 1 330px;
+	-webkit-flex: 0 1 32%;
+	flex: 0 1 32%;
 }
 
 .pricing--feature-list {
@@ -942,25 +942,25 @@
 .pricing--tashi .pricing--item {
 	font-family: 'Roboto Condensed', sans-serif;
 	margin: 0.5em;
-	padding: 2em 2.5em;
+	padding: 2.5em 2.5em;
 	text-align: left;
 	color: #fff;
-	background: #262c37;
+	background: #2D2D2D;
 }
 
 .pricing--tashi .pricing--title {
 	font-size: 2em;
 	font-weight: 300;
 	margin: 0 0 0.15em;
-	color: #E25A77;
+	color: #1DAF92;
 }
 
 .pricing--tashi .pricing--item:nth-child(2) .pricing--title {
-	color: #E25ABC;
+	color: #1DAF92;
 }
 
 .pricing--tashi .pricing--item:nth-child(3) .pricing--title {
-	color: #7E5AE2;
+	color: #1DAF92;
 }
 
 .pricing--tashi .pricing--price {
@@ -970,9 +970,8 @@
 }
 
 .pricing--tashi .pricing--currency {
-	font-size: 0.65em;
-	vertical-align: super;
-	color: #394150;
+	font-size: 0.8em;
+	color: #C4C4C4;
 }
 
 .pricing--tashi .pricing--period {
@@ -984,24 +983,24 @@
 .pricing--tashi .pricing--sentence {
 	padding: 0 0 0.5em;
 	margin: 0;
-	color: #535965;
+	color: #1DAF92;
 }
 
 .pricing--tashi .pricing--feature-list {
-	font-size: 0.95em;
+	font-size: 0.87em;
 	margin: 0;
 	padding: 0 0 2.5em;
 	list-style: none;
-	color: #757983;
+	color: #C4C4C4;
 }
 
 .pricing--tashi .pricing--feature {
 	position: relative;
 	display: block;
-	padding: 0 0 0 20px;
-	line-height: 1.5;
+	padding: 0 0 0 0px;
+	line-height: 2;
 }
-
+/*
 .pricing--tashi .pricing--feature::before {
 	content: '';
 	position: absolute;
@@ -1012,7 +1011,7 @@
 	top: 50%;
 	margin: -2px 0 0 0;
 }
-
+*/
 .pricing--tashi .pricing--action {
 	-webkit-align-self: flex-end;
 	align-self: flex-end;
@@ -1023,22 +1022,22 @@
 	line-height: 60px;
 	color: #fff;
 	border-radius: 30px;
-	background: #E25A77;
+	background: #1DAF92;
 	-webkit-transition: background-color 0.3s, color 0.3s;
 	transition: background-color 0.3s, color 0.3s;
 }
 
 .pricing--tashi .pricing--item:nth-child(2) .pricing--action {
-	background: #E25ABC;
+	background: #1DAF92;
 }
 
 .pricing--tashi .pricing--item:nth-child(3) .pricing--action {
-	background: #7E5AE2;
+	background: #1DAF92;
 }
 
 .pricing--tashi .pricing--action:hover,
 .pricing--tashi .pricing--action:focus {
-	background: #1A1F28 !important;
+	background: #55dcc1 !important;
 }
 
 /* palden */
